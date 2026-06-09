@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch with MSVC",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "preLaunchTask": "Build with MSVC",
+            "program": "${workspaceFolder}\\bin\\debug\\${fileBasenameNoExtension}.exe",
+             "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}\\bin\\debug"
+        }
+    ]
+}

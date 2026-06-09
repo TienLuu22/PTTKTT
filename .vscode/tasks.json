@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild"
+            ,"label": "Build with MSVC",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/Fe${workspaceFolder}\\bin\\debug\\${fileBasenameNoExtension}.exe",
+                "${file}",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+
+            },
+            "options": {
+                "cwd": "${workspaceFolder}\\bin\\debug"
+            }
+        }
+    ]
+}
